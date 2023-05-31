@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(214, 183, 3);
+    padding: 10px;
+    color:white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: greenyellow;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+#hero-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#hero-info {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+}
+video{
+    max-width: 100%;
+    height: auto;
+}

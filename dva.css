@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: blue;
+}
+
+header {
+    text-align: center;
+    background-color: pink;
+    padding: 10px;
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: beige;
+    padding: 30px;
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+#hero-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#hero-info {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5;
+    padding: 10px;
+}
+video{
+    max-width: 100%;
+    height: auto;
+}
