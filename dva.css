@@ -1,43 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mynerve&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+/* CSS Styles for Doomfist Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mynerve&family=Poppins:wght@200&family=Roboto:wght@300&display=swap'); /* Importing Google Fonts */
+
 body {
-    
-    margin: 0;
-    padding: 20px;
-    background-color: blue;
+margin: 0;
+padding: 20px;
+background-color: blue; /* Setting background color of the body */
 }
 
 header {
-    text-align: center;
-    background-color: pink;
-    padding: 10px;
-    color: #fff;
-    font-family: 'Aldrich', sans-serif;
+text-align: center;
+background-color: pink; /* Setting background color of the header */
+padding: 10px;
+color: #fff;
+font-family: 'Aldrich', sans-serif; /* Setting font family for the header */
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: beige;
-    padding: 30px;
-    font-family: 'Josefin Sans', sans-serif;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+max-width: 800px;
+margin: 0 auto;
+background-color: beige; /* Setting background color of the container */
+padding: 30px;
+font-family: 'Josefin Sans', sans-serif; /*Setting font family for the container */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding box shadow to the container */
 }
 
 h2 {
-    color: #555;
-    margin-top: 20px;
+color: #555; /* Setting color for the h2 heading */
+margin-top: 20px;
 }
-
 
 p {
-    line-height: 1.5;
-    padding: 10px;
+line-height: 1.5;
+padding: 10px;
 }
+
 video {
-    max-width: 100%;
-    height: auto;
-    justify-content: center;
+max-width: 100%;
+height: auto;
+justify-content: center; /* Centering the video horizontally */
 }
-.container video{
-    place-content: center;
+
+button {
+margin-left: 340px; /* Setting left margin for the button */
+margin-top: 30px; /* Setting top margin for the button */
+}
+
+button:hover {
+background-color: black; /* Changing background color on hover */
+transition: 0.3s; /* Adding transition effect on hover */
+}
+
+a:hover {
+color: #fff; /* Changing text color on hover */
+}
+
+a {
+color: black; /* Setting text color for links */
+text-decoration: none; /* Removing underline from links */
 }

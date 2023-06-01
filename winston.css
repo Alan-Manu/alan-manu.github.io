@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mynerve&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
 
+/* Importing Google Fonts for custom typography */
+
 body {
     margin: 0;
     padding: 20px;
-    background-color: #5a5c5b
+    background-color: #5a5c5b;
 }
+
+/* Setting margin, padding, and background color for the body element */
 
 header {
     text-align: center;
@@ -12,8 +16,9 @@ header {
     padding: 10px;
     color: #fff;
     font-family: 'Aldrich', sans-serif;
-
 }
+
+/* Styling the header element with center-aligned text, background color, padding, color, and custom font */
 
 .container {
     max-width: 800px;
@@ -22,14 +27,17 @@ header {
     padding: 30px;
     border-radius: 5px;
     font-family: 'Josefin Sans', sans-serif;
-
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* Styling the main container with a maximum width, center-aligned margin, background color, padding, border-radius, custom font, and box shadow */
 
 h2 {
     color: black;
     margin-top: 20px;
 }
+
+/* Setting color and top margin for h2 elements */
 
 #hero-image {
     width: 200px;
@@ -37,14 +45,50 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* Setting width, height, and bottom margin for the hero image */
+
 #hero-info {
     font-weight: bold;
 }
 
+/* Setting font weight for the hero info element */
+
 p {
     line-height: 1.5;
 }
-video{
+
+/* Setting line height for paragraphs */
+
+video {
     max-width: 100%;
     height: auto;
 }
+
+/* Setting maximum width and auto height for videos */
+
+button {
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+/* Setting margin for the button element */
+
+button:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+/* Changing background color and adding transition effect on hover for the button */
+
+a:hover {
+    color: #fff;
+}
+
+/* Changing text color on hover for anchor elements */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Setting color and removing text decoration for anchor elements */

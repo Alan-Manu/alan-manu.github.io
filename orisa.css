@@ -1,49 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mynerve&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+/* CSS Styles for the Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mynerve&family=Poppins:wght@200&family=Roboto:wght@300&display=swap'); /* Importing Google Fonts */
 
 body {
-    
-    margin: 0;
-    padding: 20px;
-    background-color: black;
+margin: 0;
+padding: 20px;
+background-color: black; /* Setting the background color of the body */
 }
 
 header {
-    text-align: center;
-    background-color: rgba(214, 182, 3, 0.678);
-    padding: 10px;
-    font-family: 'Aldrich', sans-serif;
-    color:white;
+text-align: center;
+background-color: rgba(214, 182, 3, 0.678); /* Setting the background color of the header with transparency */
+padding: 10px;
+font-family: 'Aldrich', sans-serif; /* Applying the 'Aldrich' font to the header */
+color:white; /* Setting the text color in the header to white */
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(172, 255, 47, 0.61);
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-family: 'Josefin Sans', sans-serif;
+max-width: 800px;
+margin: 0 auto;
+background-color: rgba(172, 255, 47, 0.61); /* Setting the background color of the container with transparency */
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a box shadow to the container */
+font-family: 'Josefin Sans', sans-serif; /* Applying the 'Josefin Sans' font to the container */
 }
 
 h2 {
-    color: #555;
-    margin-top: 20px;
+color: #555; /* Setting the color of the heading to a dark gray */
+margin-top: 20px;
 }
 
 #hero-image {
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
+width: 200px;
+height: auto;
+margin-bottom: 20px;
 }
 
 #hero-info {
-    font-weight: bold;
+font-weight: bold; /* Setting the font weight of the hero information */
 }
 
 p {
-    line-height: 1.5;
+line-height: 1.5; /* Setting the line height for paragraphs */
 }
-video{
-    max-width: 100%;
-    height: auto;
+
+video {
+max-width: 100%;
+height: auto;
+}
+
+button {
+margin-left: 340px;
+margin-top: 30px;
+}
+
+button:hover {
+background-color: black;
+transition: 0.3s; /* Adding a transition effect to the button on hover */
+}
+
+a:hover {
+color: #fff; /* Changing the link color to white on hover */
+}
+
+a {
+color: black;
+text-decoration: none; /* Removing the underline from links */
 }

@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mynerve&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+/* Body styles */
 body {
     margin: 0;
     padding: 20px;
     background-color: rgb(161, 157, 133);
 }
 
+/* Header styles */
 header {
     text-align: center;
     background-color: rgba(221, 191, 21, 0.74);
@@ -13,6 +16,7 @@ header {
     font-family: 'Aldrich', sans-serif;
 }
 
+/* Container styles */
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -23,25 +27,54 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Heading styles */
 h2 {
     color: black;
     margin-top: 20px;
 }
 
+/* Hero image styles */
 #hero-image {
     width: 200px;
     height: auto;
     margin-bottom: 20px;
 }
 
+/* Hero info styles */
 #hero-info {
     font-weight: bold;
 }
 
+/* Paragraph styles */
 p {
     line-height: 1.5;
 }
-video{
+
+/* Video styles */
+video {
     max-width: 100%;
     height: auto;
+}
+
+/* Button styles */
+button {
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+/* Button hover styles */
+button:hover {
+    background-color: black;
+    transition: 0.3s;
+}
+
+/* Link hover styles */
+a:hover {
+    color: #fff;
+}
+
+/* Link styles */
+a {
+    color: black;
+    text-decoration: none;
 }

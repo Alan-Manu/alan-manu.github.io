@@ -1,47 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mynerve&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+/* CSS Styles for the Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Mynerve&family=Poppins:wght@200&family=Roboto:wght@300&display=swap'); /* Importing Google Fonts */
+
 body {
-    margin: 0;
-    padding: 20px;
-    background-color: blue;
+margin: 0;
+padding: 20px;
+background-color: blue; /* Setting background color of the body */
 }
 
 header {
-    text-align: center;
-    font-family: 'Aldrich', sans-serif;
-    background-color: rgb(209, 46, 46);
-    padding: 10px;
-    color: black
+text-align: center;
+font-family: 'Aldrich', sans-serif; /* Setting font family for the header */
+background-color: rgb(209, 46, 46); /* Setting background color of the header */
+padding: 10px;
+color: black; /* Setting text color for the header */
 }
 
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: beige;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    font-family: 'Josefin Sans', sans-serif;
+max-width: 800px;
+margin: 0 auto;
+background-color: beige; /* Setting background color of the container */
+padding: 30px;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding box shadow to the container */
+font-family: 'Josefin Sans', sans-serif; /* Setting font family for the container */
 }
 
 h2 {
-    color: #555;
-    margin-top: 20px;
+color: #555; /* Setting color for the h2 heading */
+margin-top: 20px;
 }
 
 #hero-image {
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
+width: 200px;
+height: auto;
+margin-bottom: 20px;
 }
 
 #hero-info {
-    font-weight: bold;
+font-weight: bold;
 }
 
 p {
-    line-height: 1.5;
+line-height: 1.5;
 }
-video{
-    max-width: 100%;
-    height: auto;
+
+video {
+max-width: 100%;
+height: auto;
 }
+
+button {
+margin-left: 340px; /* Setting left margin for the button */
+margin-top: 30px; /* Setting top margin for the button */
+}
+
+button:hover {
+background-color: black; /* Changing background color on hover */
+transition: 0.3s; /* Adding transition effect on hover */
+}
+
+a:hover {
+color: #fff; /* Changing text color on hover */
+}
+
+a {
+color: black; /* Setting text color for links */
+text-decoration: none; /* Removing underline from links */
+}
+
+
+
+
